@@ -1,0 +1,72 @@
+body{
+    font-family: 'papyrus', 'Courier New', monospace;
+    background-color: black;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png");
+    background-repeat: repeat;
+    color: aliceblue; /* font color */
+
+    
+}
+img{
+    display: block;
+    padding: 5px;
+    border: 2px solid lightblue;
+    margin: auto;
+    
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+ color: rgb(172, 242, 218);
+    
+}
+li{
+    font-style: italic;
+
+}
+
+.gangnam{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    color: red;
+    background-color: lime;
+    border: 5px dotted aqua;
+}
+.gangnam:hover{
+    text-align: center;
+    color: gray;
+
+}
+.common{
+    \
+    position: absolute;
+
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    top: 20px;
+    text-align: center;
+}
+.gallery img{
+    display: inline;
+    height: 250px /*!important*/;
+    
+}
